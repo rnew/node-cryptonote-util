@@ -1,7 +1,11 @@
-language: node_js
-node_js:
-- '0.10'
+os: linux
+dist: xenial
 addons:
   apt:
     packages:
     - libboost-all-dev
+language: node_js
+node_js:
+- '8'
+- '10'
+- '11'
